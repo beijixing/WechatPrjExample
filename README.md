@@ -1,4 +1,4 @@
-#WechatPrjExample
+WechatPrjExample
 
 recycle-view使用示例,
 
