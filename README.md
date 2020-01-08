@@ -1,5 +1,4 @@
-WechatPrjExample
-微信小程序常用控件使用示例及各种页面布局示例
+#WechatPrjExample
 
 recycle-view使用示例,
 
