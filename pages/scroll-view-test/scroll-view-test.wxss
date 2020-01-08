@@ -1,0 +1,69 @@
+/* pages/scroll-view-test/scroll-view-test.wxss */
+.page-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.page-section{
+ flex: 1;
+  width: auto;
+  background: purple;
+  margin: 0 0 20px 0;
+}
+
+.page-section-spacing {
+  height: 200px;
+}
+
+.scroll-view_V {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.scroll-view-item {
+  height: 100px;
+  width: auto;
+  background-color: orange;
+}
+
+.scroll-view_V #demo1 {
+  background-color: red;
+}
+
+.scroll-view_V #demo2 {
+  background-color: green;
+}
+
+
+.scroll-view_V #demo3 {
+  background-color: blue;
+}
+
+.scroll-view_H {
+  white-space: nowrap; 
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.scroll-view-item_H {
+  width: 100%;
+  height: 100%; 
+  display: inline-block;
+  background-color: orange;
+}
+.scroll-view_H #demo1 {
+  background-color: black;
+}
+
+.scroll-view_H #demo2 {
+  background-color: sandybrown;
+}
+
+.scroll-view_H #demo3 {
+  background-color: rgb(0, 132, 255);
+}

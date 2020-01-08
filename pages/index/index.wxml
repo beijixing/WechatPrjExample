@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<recycle-view batch="{{batchSetRecycleData}}" id="recycleId">
+  <view slot="before">功能列表</view>
+  <recycle-item wx:for="{{recycleList}}" wx:key="id" >
+    <view class="recycleItem" id="{{item.idx}}" data-id="{{item.idx}}" bindtap="recycleItemTapped">
+      <image style='width:80px;height:60px;float:left;' src="{{item.image_url}}"></image>
+      <text class="itemText" style="display:block; width:{{windoww - 80}}px; height: 60px; overflow:hidden; text-overflow: ellipsis; "> 
+      {{item.idx+1}}. {{item.title}} 
+      </text>
+    </view>
+  </recycle-item>
+  <view slot="after">结束了</view>
+</recycle-view>
+

@@ -1,0 +1,12 @@
+/**index.wxss**/
+.recycleItem {
+  display: flex;
+  background-color: red;
+  align-items: left;
+}
+.itemText {
+  color: blue;
+  background-color: yellow;
+  font-size: 14px;
+  padding-right: -10px;
+}

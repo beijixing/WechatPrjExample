@@ -1,0 +1,39 @@
+/* pages/list-test/list-test.wxss */
+
+.one-image-line {
+  width:100px;
+  height:60px;
+  float:left;
+}
+
+.two-image-line {
+  width:80px;
+  height:60px;
+  float:left;
+}
+
+.listItem{
+  background-color: red;
+  width: auto;
+  height: 60px;
+  margin: 0 10px 10px 0px;
+}
+
+.tow-item-container {
+  display: flex;
+}
+
+.two-item-oneline {
+  flex: 1;
+}
+
+/* //实际应用时宽度应该动态计算 */
+.itemText {
+  color: white;
+  text-align: center;
+  display:block;
+  width: 50px; 
+  height: 60px; 
+  overflow:hidden; 
+  text-overflow: ellipsis;
+}

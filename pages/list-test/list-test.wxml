@@ -1,0 +1,23 @@
+<!--pages/list-test/list-test.wxml-->
+<view wx:for="{{dataList}}" wx:key="id"  wx:for-index="idx" wx:for-item="itemName">
+    <view class="listItem">
+<!-- 条件渲染 -->
+      <view wx:if="{{ itemName.id % 2 == 0 }}"> 
+        <image class="one-image-line" src="{{itemName.image_url}}"></image>
+        <text class="itemText">{{idx}}: {{itemName.message}}</text>
+      </view>
+      <view wx:else> 
+        <view class="tow-item-container">
+          <view class="two-item-oneline">
+            <image class="two-image-line" src="{{itemName.image_url}}"></image>
+            <text class="itemText">{{idx}}: {{itemName.message}}</text>
+          </view>
+          <view class="two-item-oneline">
+            <image class="two-image-line" src="{{itemName.image_url}}"></image>
+            <text class="itemText">{{idx}}: {{itemName.message}}</text>
+          </view>
+        </view>
+        
+      </view>
+    </view>
+</view>

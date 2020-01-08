@@ -1,0 +1,12 @@
+/* pages/recycle-view-test/recycle-view-test.wxss */
+.recycleItem {
+  display: flex;
+  background-color: red;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+}
+.itemText {
+  color: blue;
+  font-size: 14px;
+}
